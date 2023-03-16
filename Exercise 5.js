@@ -3,7 +3,7 @@ function myClickFunction () {
     element.firstChild.nodeValue = 'New Heading';
 
     var element = document.getElementById('paragraph');
-    element.firstChild.nodeValue = 'New Paragraph Text';
+    element.firstChild.nodeValue = 'New Paragraphing Text';
 }
 
 document.addEventListener('click', myClickFunction);
