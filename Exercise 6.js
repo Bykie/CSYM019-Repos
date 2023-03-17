@@ -3,6 +3,10 @@ function updateHeading () {
         element.firstChild.nodeValue = 'New Heading';
 }
 
+function updateHeading1 () {
+    var element = document.getElementById ('pageheading');
+        element.firstChild.nodeValue = 'Page Heading';
+}
 function updateParagraph () {
     var element = document.getElementById ('paragraph');
         element.firstChild.nodeValue = 'New Paragraph';
@@ -10,7 +14,10 @@ function updateParagraph () {
 
 function myLoadFunction () {
     var element = document.getElementById('pageheading');
-        element.addEventListener ('click', updateHeading);
+        element.addEventListener ('mouseenter', updateHeading);
+
+    var element = document.getElementById('pageheading');
+        element.addEventListener ('mouseleave', updateHeading1);
 
     var element = document.getElementById ('paragraph');
         element.addEventListener ('click', updateParagraph);
