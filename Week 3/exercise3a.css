@@ -1,0 +1,52 @@
+body {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: auto;
+    grid-template-areas: "header header"
+                        "nav nav"
+                        "main aside"
+                        "footer footer";
+}
+
+.exercise3 > header {
+    background-color: darkblue;
+    color: white;
+    font-size: x-large;
+    padding: 2em;
+    border: 1em;
+    grid-area: header;
+}
+
+nav {
+    background-color: yellow;
+    color: black;
+    grid-area: nav;
+}
+
+.nav > h1 {
+    display: inline;
+    width: 50%;
+    float: left;
+}
+
+.nav > h2 {
+    display: inline;
+    width: 50%;
+    float: right;
+}
+
+main {
+    background-color: blue;
+    grid-area: main;
+}
+
+aside {
+    background-color: green;
+    grid-area: aside;
+}
+
+footer {
+    background-color: grey;
+    grid-area: footer;
+}
+
