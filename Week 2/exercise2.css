@@ -1,0 +1,28 @@
+.csym019 {
+    background-color: violet;
+    color: black;
+    display: inline;
+    width: 50%;
+    margin-right: -10px;
+    float: left;
+}
+
+.csym019 > h1 {
+    color: red;
+    padding: auto;
+}
+
+.csym015 {
+    background-color: yellow;
+    color: black;
+    display: inline;
+    width: 50%;
+    margin-right: -10px;
+    float: right;
+    border-radius: 10%;
+}
+
+.csym015 > h1 {
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
